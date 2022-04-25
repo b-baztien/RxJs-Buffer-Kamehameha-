@@ -105,11 +105,11 @@ const firstWhenCustom =
 
 //main
 charging$.subscribe((res) => {
-  playAudio('charge');
+  // playAudio('charge');
   kamehamehaCharge(res / 10.0);
 });
 
 buffered.subscribe((x) => {
-  playAudio('fire');
+  // playAudio('fire');
   kamehamehaBeam(x / 10);
 });
